@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: url('./img/suits.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: 100;
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+.container {
+  width: 45%;
+  display: flex;
+  margin: 8% 5% 5%;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.wrapper__left {
+  width: calc(100% / 2.5);
+}
+
+.wrapper__right {
+  width: calc(100% / 2);
+  justify-content: flex-end;
+}
+
+.wrapper__left,
+.wrapper__right {
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+}
+
+.product-image {
+  width: 150px;
+  height: auto;
+}
+
+.t-shirt {
+  stroke: #000;
+  stroke-width: 2;
+  fill: white;
+}
+
+.btn__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  width: calc(100% / 4);
+  align-items: center;
+}
+
+.colors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn__white {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.btn__black {
+  background-color: black;
+  border: 1px solid black;
+}
+
+.btn__red {
+  background-color: #c94c4c;
+  border: 1px solid #c94c4c;
+}
+
+.btn__blue {
+  background-color: #034f84;
+  border: 1px solid #034f84;
+}
+
+.btn {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.8;
+}
+
+.btn__order {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid #86af49;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  margin: 20px 0 0;
+  font-weight: bold;
+}
+
+.btn__order:hover,
+.btn__order:focus {
+  background-color: #86af49;
+  color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+.white {
+  fill: white;
+}
+
+.black {
+  fill: black;
+}
+
+.red {
+  fill: #c94c4c;
+}
+
+.blue {
+  fill: #034f84;
+}
